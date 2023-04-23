@@ -2,11 +2,19 @@
   "name": "easy-rules",
   "version": "1.0.0",
   "description": "This is an easy pack of rules for eslint",
-  
   "scripts": {
-    
+    "lint": "eslint ."
   },
-  "keywords": ["eslint", "rules", "formatter", "code style", "code", "javascript", "easy", "easy-rules"],
+  "keywords": [
+    "eslint",
+    "rules",
+    "formatter",
+    "code style",
+    "code",
+    "javascript",
+    "easy",
+    "easy-rules"
+  ],
   "author": {
     "name": "angel sornichero",
     "email": "angelsornicheropacheco2008@gmail.com",
@@ -18,5 +26,10 @@
     "url": "https://github.com/angelsornichero/easy-rules"
   },
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/eslint": "^8.37.0",
+    "eslint": "8.39.0",
+    "eslint-plugin-react": "7.32.2"
+  }
 }
