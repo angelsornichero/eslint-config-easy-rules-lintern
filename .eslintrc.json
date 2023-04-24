@@ -1,14 +1,17 @@
 {
     "env": {
         "es2021": true,
-        "node": true
+        "node": true,
+        "browser": true 
     },
     "extends": [
         "eslint:recommended",
-        "plugin:react/recommended"
+        "plugin:react/recommended",
+        "plugin:@typescript-eslint/recommended"
     ],
     "overrides": [
     ],
+    "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaVersion": 2022,
         "sourceType": "module",
@@ -58,7 +61,13 @@
         "jsx-quotes": ["warn", "prefer-double"],
         "line-comment-position": ["error", { "position": "beside" }],
         "camelcase": ["error", { "properties": "always" }],
-        "no-empty-function": "error",
-        "no-return-await": "error"
+        "no-empty-function": "warn",
+        "no-return-await": "error",
+        "max-params": ["error", 2],
+        "space-before-function-paren": ["error", "never"],
+        "key-spacing": ["error", { "beforeColon": false }],
+        "new-parens": "error",
+        "no-array-constructor": "error"
+        
     }
 }

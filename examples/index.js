@@ -1,10 +1,10 @@
 let i = 0
 
-function easy () {
-	return i
+function easy(param) {
+	return param
 }
 
-easy()
+easy(i)
 
 const a = { a: 20 }
 
@@ -27,3 +27,10 @@ async function d() {
 }
 
 d()
+
+const e = {
+	key: 5,
+	ey: 2
+}
+
+console.log(e)
