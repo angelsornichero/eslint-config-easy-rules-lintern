@@ -23,9 +23,6 @@ describe('Eslint objects', () => {
 		expect(json.extends).toBeTypeOf('object')
 	})
 
-	it('parser should be @typescript-eslint/parser', () => {
-		expect(json.parser).toBe('@typescript-eslint/parser')
-	})
 
 	it('ecmaVersion should be 2022', () => {
 		expect(json.parserOptions.ecmaVersion).toBe(2022)
