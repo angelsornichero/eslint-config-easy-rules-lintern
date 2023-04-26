@@ -18,7 +18,6 @@ g()
 
 const h = [1, 1]
 
-
 console.log(h) // Valid comment
 
 async function t() {
@@ -27,3 +26,7 @@ async function t() {
 }
 
 t()
+
+for (let i = 0; i < 10; i++) {
+	console.log(i)
+}

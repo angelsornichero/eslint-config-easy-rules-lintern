@@ -17,8 +17,6 @@ const b = () => {
 b()
 
 const c = [1, 1]
-
-
 console.log(c) // Valid comment
 
 async function d() {
@@ -34,3 +32,7 @@ const e = {
 }
 
 console.log(e)
+
+if (e !== undefined) { // Instead if (true) || if (e !==  undefined)
+	console.log(e)
+}

@@ -44,7 +44,7 @@
         "react/react-in-jsx-scope": "off",
         "no-class-assign": "error",
         "no-debugger": "error",
-        "no-trailing-spaces": "warn",
+        "no-trailing-spaces": "error",
         "object-curly-spacing": [
             "error",
             "always"
@@ -67,7 +67,14 @@
         "space-before-function-paren": ["error", "never"],
         "key-spacing": ["error", { "beforeColon": false }],
         "new-parens": "error",
-        "no-array-constructor": "error"
-        
+        "no-array-constructor": "error",
+        "no-constant-condition": "error",
+        "no-multi-spaces": "error",
+        "no-duplicate-imports": "error",
+        "no-duplicate-case": "error",
+        "no-eval": "error",
+        "no-mixed-spaces-and-tabs": "error",
+        "no-multiple-empty-lines": ["error", { "max": 1 }],
+        "semi-spacing": "error"
     }
 }
