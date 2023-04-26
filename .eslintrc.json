@@ -74,7 +74,11 @@
         "no-duplicate-case": "error",
         "no-eval": "error",
         "no-mixed-spaces-and-tabs": "error",
-        "no-multiple-empty-lines": ["error", { "max": 1 }],
-        "semi-spacing": "error"
+        "no-multiple-empty-lines": ["error", { "max": 2 }],
+        "semi-spacing": "error",
+        "template-curly-spacing": "error",
+        "no-unreachable": "error",
+        "no-alert": "error",
+        "eol-last": ["error", "always"]
     }
 }

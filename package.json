@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "This is an easy pack of rules for eslint",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "vitest"
   },
   "keywords": [
     "eslint",
@@ -35,6 +36,7 @@
     "eslint-plugin-react": "7.32.2"
   },
   "devDependencies": {
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "vitest": "^0.30.1"
   }
 }
