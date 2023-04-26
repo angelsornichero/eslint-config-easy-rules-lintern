@@ -1,5 +1,5 @@
 {
-  "name": "easy-rules-lintern",
+  "name": "eslint-config-easy-rules",
   "version": "1.0.0",
   "description": "This is an easy pack of rules for eslint",
   "scripts": {
